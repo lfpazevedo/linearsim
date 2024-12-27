@@ -2,18 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Clarity</title>
-    <link>http://localhost:1313/linearsim/post/</link>
+    <link>https://lfpazevedo.github.io/linearsim/post/</link>
     <description>Recent content in Posts on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/linearsim/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://lfpazevedo.github.io/linearsim/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Using Notices</title>
-      <link>http://localhost:1313/linearsim/post/testing_post/</link>
+      <title>testing post</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/new-post-2/</link>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linearsim/post/testing_post/</guid>
+      <guid>https://lfpazevedo.github.io/linearsim/post/new-post-2/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;aaa&#34;&gt;aaa&lt;/h1&gt;
+&lt;p&gt;bbb&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
+&lt;li&gt;Duce pollice&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Check my personal dashboard with economic and finance data &lt;a href=&#34;https://lfpazevedo.pythonanywhere.com&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using Notices</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/new-post/</link>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/new-post/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;aaa&#34;&gt;aaa&lt;/h1&gt;
+&lt;p&gt;bbb&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
+&lt;li&gt;Duce pollice&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Check my personal dashboard with economic and finance data &lt;a href=&#34;https://lfpazevedo.pythonanywhere.com&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using Notices</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/testing_post/</link>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/testing_post/</guid>
       <description>
         
           
@@ -27,10 +71,10 @@ The &amp;quot;Notices&amp;quot; shortcode enables you to call out pieces of info
     
     <item>
       <title>Using Hugo page bundles</title>
-      <link>http://localhost:1313/linearsim/post/bundle/</link>
+      <link>https://lfpazevedo.github.io/linearsim/post/bundle/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linearsim/post/bundle/</guid>
+      <guid>https://lfpazevedo.github.io/linearsim/post/bundle/</guid>
       <description>
         
           
@@ -43,10 +87,10 @@ The &amp;quot;Notices&amp;quot; shortcode enables you to call out pieces of info
     
     <item>
       <title>Using OpenStreetMap</title>
-      <link>http://localhost:1313/linearsim/post/map/</link>
+      <link>https://lfpazevedo.github.io/linearsim/post/map/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linearsim/post/map/</guid>
+      <guid>https://lfpazevedo.github.io/linearsim/post/map/</guid>
       <description>
         
           
@@ -59,10 +103,10 @@ The &amp;quot;Notices&amp;quot; shortcode enables you to call out pieces of info
     
     <item>
       <title>Using Notices</title>
-      <link>http://localhost:1313/linearsim/post/notices/</link>
+      <link>https://lfpazevedo.github.io/linearsim/post/notices/</link>
       <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linearsim/post/notices/</guid>
+      <guid>https://lfpazevedo.github.io/linearsim/post/notices/</guid>
       <description>
         
           
@@ -78,10 +122,10 @@ note in quotes as the second parameter.  The inner body of the note can be whate
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/linearsim/post/markdown-syntax/</link>
+      <link>https://lfpazevedo.github.io/linearsim/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linearsim/post/markdown-syntax/</guid>
+      <guid>https://lfpazevedo.github.io/linearsim/post/markdown-syntax/</guid>
       <description>
         
           
@@ -94,10 +138,10 @@ note in quotes as the second parameter.  The inner body of the note can be whate
     
     <item>
       <title>Rich Content</title>
-      <link>http://localhost:1313/linearsim/post/rich-content/</link>
+      <link>https://lfpazevedo.github.io/linearsim/post/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linearsim/post/rich-content/</guid>
+      <guid>https://lfpazevedo.github.io/linearsim/post/rich-content/</guid>
       <description>
         
           
@@ -110,10 +154,10 @@ note in quotes as the second parameter.  The inner body of the note can be whate
     
     <item>
       <title>Placeholder Text</title>
-      <link>http://localhost:1313/linearsim/post/placeholder-text/</link>
+      <link>https://lfpazevedo.github.io/linearsim/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linearsim/post/placeholder-text/</guid>
+      <guid>https://lfpazevedo.github.io/linearsim/post/placeholder-text/</guid>
       <description>
         
           
@@ -126,10 +170,10 @@ note in quotes as the second parameter.  The inner body of the note can be whate
     
     <item>
       <title>Math Typesetting</title>
-      <link>http://localhost:1313/linearsim/post/math-typesetting/</link>
+      <link>https://lfpazevedo.github.io/linearsim/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linearsim/post/math-typesetting/</guid>
+      <guid>https://lfpazevedo.github.io/linearsim/post/math-typesetting/</guid>
       <description>
         
           
@@ -142,10 +186,10 @@ note in quotes as the second parameter.  The inner body of the note can be whate
     
     <item>
       <title>Emoji Support</title>
-      <link>http://localhost:1313/linearsim/post/emoji-support/</link>
+      <link>https://lfpazevedo.github.io/linearsim/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linearsim/post/emoji-support/</guid>
+      <guid>https://lfpazevedo.github.io/linearsim/post/emoji-support/</guid>
       <description>
         
           
