@@ -2,9 +2,9 @@
 enableSearch = true
 
 # socials
-twitter = "@janedoe"
+twitter = "@lfpazevedo"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+introDescription = "Quantitative Economist"
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 # keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
@@ -52,7 +52,8 @@ fontsDir = "fonts/" # without a leading forward slash
 fallBackOgImage = "images/thumbnail.png"
 
 # Logo image
-logo = "logos/logo.png"
+# logo = "logos/logo.png"
+logo = "logos/WhatsApp Image 2024-12-27 at 18.42.04.jpeg"
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
@@ -150,17 +151,18 @@ blogDir = "post"
 
 # website author
 [author]
-name = "Jane Doe"
+name = "Luis Fernando P. Azevedo"
 # photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
+# photo = "WhatsApp Image 2024-12-27 at 18.51.50.jpeg"
 
 [plausible_analytics]
 enable = false # to enable plausible analytics set to true.
-websiteDomain = "example.com" # domain name of your website, most cases same as your base url
+websiteDomain = "https://lfpazevedo.github.io/linearsim/" # domain name of your website, most cases same as your base url
 # plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is self hosted
 # scriptName = "plausible" # default is set to plausible, only required if using a custom name for script
 
 [matomo_analytics]
 enable = false # To enable matomo analytics change to `true`.
-websiteDomain = "example.com" # Set the domain name of your website, in most cases same as your base URL this is required.
+websiteDomain = "https://lfpazevedo.github.io/linearsim/" # Set the domain name of your website, in most cases same as your base URL this is required.
 matomoDomain = "matomo.example.com" # Set to Matomo domain
 matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked

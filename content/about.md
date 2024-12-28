@@ -1,25 +1,63 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+description = "Learn more about Luis Fernando Pereira Azevedo, an experienced macroeconomic strategist and financial analyst."
+date = "2024-12-27"
+aliases = ["about", "about-me", "profile"]
+author = "Luis Fernando Pereira Azevedo"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+I am Luis Fernando Pereira Azevedo, an experienced economist and quantitative strategist with over a decade of experience in the financial industry. My work focuses on macroeconomic analysis, emerging markets, monetary and fiscal policy, econometrics, and machine learning. With a proven track record of developing robust trading strategies and constructing predictive economic models, I help optimize investment performance through insightful analysis and data-driven decision-making.
 
-Hugo makes use of a variety of open source projects including:
+### Key Areas of Expertise
+- Macroeconomic Strategy and Emerging Markets
+- Monetary and Fiscal Policy Analysis
+- Econometrics and Machine Learning
+- Top 5 Recognized Inflation Forecaster
+- Financial Data Science and Portfolio Metrics Management
+- Yield Curve, FX, and Credit Analysis
+- Quantitative Equity Portfolio Management
+- Python Development and Dashboard Creation
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+### Achievements
+- Successfully launched economic coverage for multiple countries, providing actionable insights for traders.
+- Developed a machine learning model that accurately predicted pension reform outcomes, supporting hedge fund strategies.
+- Recognized as a Top 5 inflation forecaster for delivering precise and timely predictions.
+- Built comprehensive Python dashboards to enhance decision-making processes.
+- Delivered yield curve strategies tailored to emerging markets and developed macroeconomic models leveraging alternative data sources.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+### Professional Experience
+#### Quantitative Economist  
+**Quantique M3**  
+- Conducted advanced time-series and cross-sectional modeling.  
+- Integrated bottom-up and macroeconomic data for financial insights.  
+- Developed and maintained financial databases and portfolio metrics using Python.  
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+#### Quantitative Strategist & Senior Economist  
+**Opportunity**  
+- Spearheaded economic coverage for various emerging and developed markets.  
+- Designed and implemented trading strategy frameworks.  
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+#### Chief Economist  
+**MZK Investimentos**  
+- Provided analysis of monetary and fiscal policies.  
+- Delivered timely updates on market news and data releases.  
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+#### Economist and Strategist  
+**M. Safra**  
+- Covered economic dynamics across multiple countries.  
+- Created economic activity models for Brazil.  
+
+### Education
+- **Ph.D. in Economics**, Fundação Getulio Vargas (2022-2024)  
+- **M.Sc. in Economics**, Fundação Getulio Vargas (2021-2022)  
+- **B.Sc. in Economics**, University of São Paulo (2013-2017)  
+
+### Skills
+#### Technical Skills  
+- Python, R, SQL, EViews  
+
+#### Languages  
+- English (Fluent)  
+- Portuguese (Native)  
+
+Explore more about my work on my [personal website](https://lfpazevedo.pythonanywhere.com) or through my [research contributions](https://repositorio.fgv.br/browse/author?scope=1418a080-d16d-4ca9-ba8a-64e593b09116&value=Azevedo,%20Luis%20Fernando%20Pereira&bbm.return=1).

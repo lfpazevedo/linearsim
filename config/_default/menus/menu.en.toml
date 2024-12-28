@@ -9,18 +9,23 @@
   weight = -109
 
 # Submenus are done this way: parent -> identifier
+# [[main]]
+#   name = "Links"
+#   identifier = "Links"
+#   weight = -108
+# [[main]]
+#   parent = "Links"
+#   name = "LinkedIn"
+#   url = "https://www.linkedin.com/in/luis-fernando-p-azevedo/"
+# [[main]]
+#   parent = "Links"
+#   name = "Twitter"
+#   url = "https://twitter.com/lfpazevedo"
+
 [[main]]
-  name = "Links"
-  identifier = "Links"
+  name = "Dashboard"
+  url = "https://lfpazevedo.pythonanywhere.com/"
   weight = -108
-[[main]]
-  parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
-[[main]]
-  parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
 
 [[main]]
   name = "About"
@@ -33,15 +38,15 @@
   name = "github"
   type = "social"
   weight = 1
-  url = "https://github.com/#"
+  url = "https://github.com/lfpazevedo"
 [[social]]
   name = "twitter"
   weight = 2
-  url = "https://twitter.com/#"
+  url = "https://twitter.com/lfpazevedo"
 [[social]]
   name = "linkedin"
   weight = 3
-  url = "https://www.linkedin.com/in/#"
+  url = "https://www.linkedin.com/in/luis-fernando-p-azevedo/"
 [[social]]
   name = "rss"
   weight = 4

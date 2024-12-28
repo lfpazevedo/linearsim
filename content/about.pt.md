@@ -1,28 +1,63 @@
 +++
 title = "Sobre"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["sobre"]
-author = "Hugo Authors"
+description = "Conheça Luis Fernando Pereira Azevedo, estrategista macroeconômico e analista financeiro experiente."
+date = "2024-12-27"
+aliases = ["sobre", "sobre-mim", "perfil"]
+author = "Luis Fernando Pereira Azevedo"
 +++
 
-Tradução em português. Apenas para demonstração, o resto do artigo não está traduzido.
+Sou Luis Fernando Pereira Azevedo, economista e estrategista quantitativo com mais de uma década de experiência no setor financeiro. Meu trabalho é focado em análise macroeconômica, mercados emergentes, política monetária e fiscal, econometria e aprendizado de máquina. Com um histórico comprovado no desenvolvimento de estratégias de trading robustas e na construção de modelos econômicos preditivos, ajudo a otimizar o desempenho de investimentos por meio de análises precisas e decisões baseadas em dados.
 
+### Principais Áreas de Expertise
+- Estratégia Macroeconômica e Mercados Emergentes
+- Análise de Políticas Monetária e Fiscal
+- Econometria e Aprendizado de Máquina
+- Reconhecimento como Top 5 em Previsão de Inflação
+- Ciência de Dados Financeiros e Gestão de Métricas de Portfólio
+- Análise de Curva de Juros, Câmbio e Crédito
+- Gestão Quantitativa de Portfólios de Ações
+- Desenvolvimento em Python e Criação de Dashboards
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+### Conquistas
+- Lançamento bem-sucedido de cobertura econômica para vários países, fornecendo insights acionáveis para traders.  
+- Desenvolvimento de um modelo de aprendizado de máquina que previu com precisão os resultados da reforma da previdência, apoiando estratégias de fundos hedge.  
+- Reconhecimento como um dos Top 5 em previsões de inflação, entregando previsões precisas e oportunas.  
+- Construção de dashboards completos em Python para melhorar processos de tomada de decisão.  
+- Criação de estratégias de curva de juros para mercados emergentes e desenvolvimento de modelos macroeconômicos utilizando fontes alternativas de dados.
 
-Hugo makes use of a variety of open source projects including:
+### Experiência Profissional
+#### Economista Quantitativo  
+**Quantique M3**  
+- Condução de modelagem avançada de séries temporais e cross-section.  
+- Integração de dados bottom-up e macroeconômicos para insights financeiros.  
+- Desenvolvimento e manutenção de bancos de dados financeiros e métricas de portfólio utilizando Python.  
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+#### Estrategista Quantitativo & Economista Sênior  
+**Opportunity**  
+- Liderança na cobertura econômica para diversos mercados emergentes e desenvolvidos.  
+- Criação e implementação de frameworks para estratégias de trading.  
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+#### Economista-Chefe  
+**MZK Investimentos**  
+- Análise de políticas monetárias e fiscais.  
+- Fornecimento de atualizações oportunas sobre notícias de mercado e divulgação de dados.  
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+#### Economista e Estrategista  
+**M. Safra**  
+- Cobertura de dinâmicas econômicas de vários países.  
+- Desenvolvimento de modelos de atividade econômica para o Brasil.  
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+### Formação Acadêmica
+- **Doutorado em Economia**, Fundação Getulio Vargas (2022-2024)  
+- **Mestrado em Economia**, Fundação Getulio Vargas (2021-2022)  
+- **Bacharelado em Economia**, Universidade de São Paulo (2013-2017)  
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+### Competências
+#### Técnicas  
+- Python, R, SQL, EViews  
+
+#### Idiomas  
+- Inglês (Fluente)  
+- Português (Nativo)  
+
+Saiba mais sobre meu trabalho no meu [site pessoal](https://lfpazevedo.pythonanywhere.com) ou através das minhas [contribuições acadêmicas](https://repositorio.fgv.br/browse/author?scope=1418a080-d16d-4ca9-ba8a-64e593b09116&value=Azevedo,%20Luis%20
