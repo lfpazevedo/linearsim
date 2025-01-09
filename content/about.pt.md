@@ -48,9 +48,9 @@ Sou Luis Fernando Pereira Azevedo, economista e estrategista quantitativo com ma
 - Desenvolvimento de modelos de atividade econômica para o Brasil.  
 
 ### Formação Acadêmica
-- **Doutorado em Economia**, Fundação Getulio Vargas (2022-2024)  
-- **Mestrado em Economia**, Fundação Getulio Vargas (2021-2022)  
-- **Bacharelado em Economia**, Universidade de São Paulo (2013-2017)  
+- **Doutorado em Economia**, Fundação Getulio Vargas
+- **Mestrado em Economia**, Fundação Getulio Vargas
+- **Bacharelado em Economia**, Universidade de São Paulo
 
 ### Competências
 #### Técnicas  

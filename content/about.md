@@ -48,9 +48,9 @@ I am Luis Fernando Pereira Azevedo, an experienced economist and quantitative st
 - Created economic activity models for Brazil.  
 
 ### Education
-- **Ph.D. in Economics**, Fundação Getulio Vargas (2022-2024)  
-- **M.Sc. in Economics**, Fundação Getulio Vargas (2021-2022)  
-- **B.Sc. in Economics**, University of São Paulo (2013-2017)  
+- **Ph.D. in Economics**, Fundação Getulio Vargas
+- **M.Sc. in Economics**, Fundação Getulio Vargas
+- **B.Sc. in Economics**, University of São Paulo
 
 ### Skills
 #### Technical Skills  
