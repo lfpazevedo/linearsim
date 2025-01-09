@@ -17,11 +17,15 @@ aliases:
 thumbnail: "https://png.pngtree.com/png-vector/20220610/ourmid/pngtree-holy-grail-icon-in-cartoon-style-isolated-on-white-background-png-image_4864634.png"
 ---
 
-#### *R and Python together for another adventure*
+# Seasonal Adjustment (Seas)
+
+## Moving holidays
 
 Each holiday has a unique impact on economic activity.
 
-For example, during Christmas, people purchase gifts before December 25th. In China, the central bank increases the money supply ahead of the Lunar New Year holiday.
+For example, during Christmas, people purchase gifts before December 25th.
+
+In China, the central bank increases the money supply ahead of the Lunar New Year holiday.
 
 In Brazil, during Carnival, the beverage industry operates at full capacity beforehand, while the cellphone market booms after the week of festivities (both for new and "refurbished" phones).
 
@@ -39,24 +43,24 @@ The official date of Carnival is a Tuesday. However, _I couldn’t match the pub
 
 After adjustments—setting the official day to Wednesday for certain years—I successfully replicated the exact values:
 
-Original Date    | Replacement Date
------------------|-----------------
-2022-03-01       | 2022-03-02
-2003-03-04       | 2003-03-05
-2014-03-04       | 2014-03-05
-2025-03-04       | 2025-03-05
-
+'''
+date_replacements = {
+	pd.Timestamp('2022-03-01'): pd.Timestamp('2022-03-02'),
+	pd.Timestamp('2003-03-04'): pd.Timestamp('2003-03-05'),
+	pd.Timestamp('2014-03-04'): pd.Timestamp('2014-03-05'),
+	pd.Timestamp('2025-03-04'): pd.Timestamp('2025-03-05'),
+}
+'''
 
 ### Genhol weights
-![Carnival Seas Weights](images/file-20241230183536266.png)
-
+![[images/genhol-carnival/file-20241230183536266.png]]
 
 Interestingly, for Corpus Christi, another movable holiday, this issue was not encountered.
 
-![Corpus Christs Seas Weights](images/file-20241230183541742.png)
+![[images/genhol-carnival/file-20241230183541742.png]]
 
 You can find the script for this study on my [Github Repository](https://github.com/lfpazevedo/py-seas).
 
-### *Feel free to send me PRs—let’s unravel the mystery of the Carnaval.dat file together!*
+Feel free to send me PRs—let’s unravel the mystery of the Carnaval.dat file together!
 
 
