@@ -14,7 +14,7 @@ series:
   - Macroeconomist Daily Routine
 aliases:
   - forecast-in-natura
-thumbnail: linearsim/images/desagregate-ipca/lettuce.webp
+thumbnail: images/lettuce.webp
 ---
 Nowadays, it’s easier and cheaper to create your own website or blog. Every corner store can share its prices with the entire planet.
 
@@ -50,8 +50,8 @@ In a vast and diverse country like Brazil, variations in rainfall distribution a
 
 Below, you can see the inflation seasonality plots for _1105001.Lettuce_ in Curitiba (South) and Fortaleza (Northeast):
 
-| ![[images/desegregate-ipca/file-20250109190843874.png]] | ![[images/desegregate-ipca/file-20250109190915357.png]] |
-|---------------------------------------------------------|---------------------------------------------------------|
+| ![[images/desegregate-ipca/file-20250109190843874.png]] |     |
+| ------------------------------------------------------- | --- |
 
 You can observe that the larger temperature swings in Curitiba have a stronger effect on price variation compared to Fortaleza.
 
