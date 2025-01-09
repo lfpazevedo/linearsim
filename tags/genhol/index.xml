@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Genhol on Clarity</title>
+    <link>https://lfpazevedo.github.io/linearsim/tags/genhol/</link>
+    <description>Recent content in Genhol on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://lfpazevedo.github.io/linearsim/tags/genhol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On the quest for the Carnaval.dat file</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/genhol-carnival/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/genhol-carnival/</guid>
+      <description>
+        
+          
+            &lt;h4 id=&#34;r-and-python-together-for-another-adventure&#34;&gt;&lt;em&gt;R and Python together for another adventure&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Each holiday has a unique impact on economic activity.&lt;/p&gt;
+&lt;p&gt;For example, during Christmas, people purchase gifts before December 25th. In China, the central bank increases the money supply ahead of the Lunar New Year holiday.&lt;/p&gt;
+&lt;p&gt;In Brazil, during Carnival, the beverage industry operates at full capacity beforehand, while the cellphone market booms after the week of festivities (both for new and &amp;quot;refurbished&amp;quot; phones).&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
