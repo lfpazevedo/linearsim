@@ -50,7 +50,7 @@ In a vast and diverse country like Brazil, variations in rainfall distribution a
 
 Below, you can see the inflation seasonality plots for _1105001.Lettuce_ in Curitiba (South) and Fortaleza (Northeast):
 
-| ![[public/post/images/desegregate-ipca/file-20250109190843874.png]] |![[public/post/images/desegregate-ipca/file-20250109190915357.png]]|
+| ![](../images/desegregate-ipca/file-20250109190843874.png) |![](../images/desegregate-ipca/file-20250109190915357.png)|
 | ------------------------------------------------------- | --- |
 
 You can observe that the larger temperature swings in Curitiba have a stronger effect on price variation compared to Fortaleza.
