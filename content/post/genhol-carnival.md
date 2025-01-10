@@ -52,7 +52,12 @@ After adjustments—setting the official day to Wednesday for certain years—I 
 
 
 ### Genhol weights
+![Carnival weight](../images/genhol-carnival/file-20241230183536266.png)
+![Carnival weight](./images/genhol-carnival/file-20241230183536266.png)
+![Carnival weight](/images/genhol-carnival/file-20241230183536266.png)
 ![](../images/genhol-carnival/file-20241230183536266.png)
+![](./images/genhol-carnival/file-20241230183536266.png)
+![](/images/genhol-carnival/file-20241230183536266.png)
 
 Interestingly, for Corpus Christi, another movable holiday, this issue was not encountered.
 
