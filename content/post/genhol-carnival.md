@@ -43,17 +43,18 @@ The official date of Carnival is a Tuesday. However, _I couldn’t match the pub
 
 After adjustments—setting the official day to Wednesday for certain years—I successfully replicated the exact values:
 
-'''
-date_replacements = {
-	pd.Timestamp('2022-03-01'): pd.Timestamp('2022-03-02'),
-	pd.Timestamp('2003-03-04'): pd.Timestamp('2003-03-05'),
-	pd.Timestamp('2014-03-04'): pd.Timestamp('2014-03-05'),
-	pd.Timestamp('2025-03-04'): pd.Timestamp('2025-03-05'),
-}
-'''
+| Original Date    | Replacement Date |
+|------------------|------------------|
+| 2022-03-01       | 2022-03-02       |
+| 2003-03-04       | 2003-03-05       |
+| 2014-03-04       | 2014-03-05       |
+| 2025-03-04       | 2025-03-05       |
+
 
 ### Genhol weights
 ![[images/genhol-carnival/file-20241230183536266.png]]
+![[images/file-20241230183536266.png]]
+
 
 Interestingly, for Corpus Christi, another movable holiday, this issue was not encountered.
 
