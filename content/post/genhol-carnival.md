@@ -52,12 +52,11 @@ After adjustments—setting the official day to Wednesday for certain years—I 
 
 
 ### Genhol weights
-![[images/file-20241230183536266.png]]
-![/home/lfpazevedo/Documents/linearsim/static/images/photo.jpeg](file:///home/lfpazevedo/Documents/linearsim/static/images/photo.jpeg)
+![[public/post/images/genhol-carnival/file-20241230183536266.png]]
 
 Interestingly, for Corpus Christi, another movable holiday, this issue was not encountered.
 
-![[images/genhol-carnival/file-20241230183541742.png]]
+![[public/post/images/genhol-carnival/file-20241230183541742.png]]
 
 You can find the script for this study on my [Github Repository](https://github.com/lfpazevedo/py-seas).
 
