@@ -52,9 +52,8 @@ After adjustments—setting the official day to Wednesday for certain years—I 
 
 
 ### Genhol weights
-![[images/genhol-carnival/file-20241230183536266.png]]
 ![[images/file-20241230183536266.png]]
-
+![/home/lfpazevedo/Documents/linearsim/static/images/photo.jpeg](file:///home/lfpazevedo/Documents/linearsim/static/images/photo.jpeg)
 
 Interestingly, for Corpus Christi, another movable holiday, this issue was not encountered.
 
