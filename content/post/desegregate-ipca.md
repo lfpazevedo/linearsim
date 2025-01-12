@@ -48,8 +48,8 @@ _Population and income data from POF 2017-2018._
 
 In a vast and diverse country like Brazil, variations in rainfall distribution and cultural practices make seasonality highly visible in the data, especially for fresh produce.
 
-| ![Lettuce](/linearsim/post/images/images/desegregate-ipca/ipca_animation_alface.gif) | ![Cilantro-Parsley](/linearsim/post/images/desegregate-ipca/ipca_animation_cheiro_verde.gif) |
-| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| ![Lettuce](/linearsim/post/images/desegregate-ipca/ipca_animation_alface.gif) | ![Cilantro-Parsley](/linearsim/post/images/desegregate-ipca/ipca_animation_cheiro_verde.gif) |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 
 Below, you can see the inflation seasonality plots for _1105001.Lettuce_ in Curitiba (South) and Fortaleza (Northeast):
 
