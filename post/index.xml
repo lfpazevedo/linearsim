@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Clarity</title>
+    <link>https://lfpazevedo.github.io/linearsim/post/</link>
+    <description>Recent content in Posts on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lfpazevedo.github.io/linearsim/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPCA Dec-2024 - Highlights</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/ipca-202412/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/ipca-202412/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;beef-on-the-rise&#34;&gt;Beef on the rise.&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ibge.gov.br/&#34;&gt;IBGE&lt;/a&gt; released today the latest data on the 2024 IPCA.&lt;/p&gt;
+&lt;p&gt;Once again, beef prices made the largest contribution to the headline inflation rate. This marks the fourth consecutive month of abnormal price increases in this category.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;IPCA contribution - Food&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://lfpazevedo.github.io/linearsim/post/images/ipca-202412/file-20250110183128919.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The price hikes were observed across all cuts, including more affordable options like &lt;em&gt;chuck&lt;/em&gt; (&lt;em&gt;Acém&lt;/em&gt;). This pattern is typical at the start of the year, driven by seasonal factors such as tax payments and back-to-school expenses. These obligations take a significant portion of household budgets, leaving consumers with less money to purchase expensive cuts like &lt;em&gt;Picanha&lt;/em&gt;.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Desegregate. Now You Can.</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/desegregate-ipca/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/desegregate-ipca/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Nowadays, it’s easier and cheaper to create your own website or blog. Every corner store can share its prices with the entire planet.&lt;/p&gt;
+&lt;p&gt;For a quantitative economist, this “corner store” is like a playground of endless possibilities.&lt;/p&gt;
+&lt;p&gt;Before we had onIn the past, only a few marketplaces published food prices—like &lt;a href=&#34;https://ceagesp.gov.br/&#34;&gt;Ceagesp&lt;/a&gt; anb local &lt;a href=&#34;https://www.ceasa.pr.gov.br/&#34;&gt;Ceasas&lt;/a&gt; in major Brazilian cities—and some institutions, such as &lt;a href=&#34;https://www.cepea.esalq.usp.br/br&#34;&gt;ESALQ&lt;/a&gt; focused on commodity prices in selected regions. Now, we can be more ambitious and &lt;strong&gt;scrape&lt;/strong&gt; retail or wholesale prices for any desired location worldwide.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>On the quest for the Carnaval.dat file</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/genhol-carnival/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/genhol-carnival/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;seasonal-adjustment-seas&#34;&gt;Seasonal Adjustment (Seas)&lt;/h1&gt;
+&lt;h2 id=&#34;moving-holidays&#34;&gt;Moving holidays&lt;/h2&gt;
+&lt;p&gt;Each holiday has a unique impact on economic activity.&lt;/p&gt;
+&lt;p&gt;For example, during Christmas, people purchase gifts before December 25th.&lt;/p&gt;
+&lt;p&gt;In China, the central bank increases the money supply ahead of the Lunar New Year holiday.&lt;/p&gt;
+&lt;p&gt;In Brazil, during Carnival, the beverage industry operates at full capacity beforehand, while the cellphone market booms after the week of festivities (both for new and &amp;quot;refurbished&amp;quot; phones).&lt;/p&gt;
+&lt;p&gt;Seasonal adjustment for monthly series is straightforward in the first example, as Christmas occurs on a fixed date within December.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/first-post/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/first-post/</guid>
+      <description>
+        
+          
+            &lt;p&gt;A briefly introduction about what you will see in this blog.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
