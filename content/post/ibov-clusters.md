@@ -78,6 +78,12 @@ We observe that **some stocks in Cluster 2** are particularly **sensitive (relat
 
 As mentioned earlier, I **did not assess parameter significance** or **regression goodness-of-fit**. This study simply highlights the **importance of identifying nearly orthogonal factors** that represent **different risks affecting stock prices**.
 
+![Interval - EPU](/linearsim/post/images/ibov-clusters/file-20250124121103865.png)
+
+![Interval - VIX](/linearsim/post/images/ibov-clusters/file-20250124121114402.png)
+
+![Interval - Focus](/linearsim/post/images/ibov-clusters/file-20250124121121045.png)
+
 If you want to take a step forward, you can use this type of clustering approach to enhance hedge and arbitrage strategies.
 
 ##### Appendix
