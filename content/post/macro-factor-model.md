@@ -1,6 +1,6 @@
 ---
 title: Statistical arbitrage with macro-factors
-date: 2025-03-01
+date: 2025-01-31
 description: Statistical arbitrage with macro-factors
 featured: true
 tags:
