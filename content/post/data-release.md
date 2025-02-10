@@ -27,11 +27,11 @@ I utilized five years of daily data (from 2012 to 2017) to estimate the paramete
 2. **Shorter vertices show a decrease in volatility on IPCA-15 release days.**
 3. **Economic activity data do not show a significant impact on volatility at any vertex.**
 
-![[images/data-release/file-20250209221939815.png]]
+![](/linearsim/post/images/data-release/file-20250209221939815.png)
 
 Here are the t-statistics used to check parameter significance:
 
-![[images/data-release/file-20250209221834065.png]]
+![](/linearsim/post/images/data-release/file-20250209221834065.png)
 
 **From this analysis, one might conclude that only IPCA matters for the interest rate market in Brazil.** However, remember that we operate in a regime-changing environment. The **“market radar”** evolves over time.
 
@@ -39,11 +39,11 @@ So, **let's add time** as a new dimension to these plots. Below, I plot only the
 
 The following graph shows that from 2012 to 2017, the activity parameters were estimated as positive, whereas more recent estimates indicate they contribute to reducing volatility.
 
-![[images/data-release/file-20250209221945233.png]]
+![](/linearsim/post/images/data-release/file-20250209221945233.png)
 
 The T-statistics plot shows that PMC and PMS are closer to –2, indicating they might be nearing statistical significance.
 
-![[images/data-release/file-20250209221837543.png]]
+![](/linearsim/post/images/data-release/file-20250209221837543.png)
 
 ##### Wouldn't it be great to add the economic surprise—actual released data vs. economists’ forecasts—to the mean equation? What about a dummy in the variance equation for days when Central Bank staff members appear in the media?
 
