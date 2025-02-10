@@ -1,6 +1,6 @@
 ---
 title: "Data Release Impact: Inflation or Activity?"
-date: 2019-02-09
+date: 2025-02-09
 description: EGARCH with dummies on the variance equation
 featured: false
 tags:
