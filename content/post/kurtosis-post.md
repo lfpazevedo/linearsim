@@ -14,6 +14,8 @@ series:
 aliases: 
 thumbnail: images/kurtosis.png
 ---
+#### We can go beyond the traditional covariance matrix when building a portfolio.
+
 Financial price return distributions are not Gaussian. Extreme events occur far more often than predicted by the normal curve, and human behavior (particularly panic selling) amplifies downside moves, making the distribution of returns left-skewed.
 
 During these extreme events, volatility measures spike. Therefore, adding volatility derivatives (futures, swaps, or even straddles and strangles) to your portfolio can help capture diversification benefits in the higher moments of the distribution.
@@ -110,13 +112,13 @@ Now let’s check the correlations in the higher moments.
 | LV     | -3.66 | -1.79   | 4.39  | -0.77 | -1.77        |          |           |            | -0.61       | -2.52        |          | -0.71       | -1.70   | 0.93          |
 | VRP    | 1.94  | 0.40    | -1.70 | 4.64  | 0.69         | 1.28     |           | 0.93       |             | 1.14         | -1.55    |             | 1.52    | -0.61         |
 
-A positive coskewness between assets i;i;ji; i; ji;i;j (i.e., twice i, once j) means that asset _j_ has a high return when the volatility of asset _i_ is high. In other words, _j_ is a good hedge against spikes in _i_. For both the USA and Brazil, the LV strategy is a good hedge when the other assets are volatile.
+A positive coskewness \[i; i; j\] — meaning twice iii and once jjj — indicates that asset jjj has a high return when the volatility of asset iii is high. In other words, jjj is a good hedge against spikes in iii. For both the USA and Brazil, the LV strategy proves to be a good hedge when the other assets are volatile.
 
-For cokurtosis, positive values for i;i;i;ji; i; i; ji;i;i;j indicate a more negatively skewed distribution for asset _i_ when asset _j_’s return is lower. This holds for VRP versus equity in the USA, and for bonds and equity in Brazil.
+For cokurtosis, positive values for \[i; i; i; j\] suggest that asset iii exhibits a more negatively skewed distribution when asset jjj’s return is lower. This pattern holds for VRP versus equity in the USA, and for bonds versus equity in Brazil.
 
-Positive values in i;i;j;ki; i; j; ki;i;j;k signal that the covariance between _j_ and _k_ increases when the volatility of _i_ increases. In the USA, the covariance between equities and VRP increases when LV volatility is high. In Brazil, equity and VRP covariance is higher in periods of high bond volatility.
+Positive values in \[i; i; j; k\] mean that the covariance between jjj and kkk increases when the volatility of iii goes up. In the USA, for example, the covariance between equities and VRP rises when LV volatility is high. In Brazil, equity and VRP covariance is higher during periods of elevated bond volatility.
 
-Finally, i;i;j;ji; i; j; ji;i;j;j > 0 means the volatility of _i_ and _j_ increases together. We observe this with bonds and LV in both countries.
+Finally, \[i; i; j; j\] > 0 indicates that the volatility of iii and jjj increases together. We observe this behavior for bonds and LV in both countries.
 
 #### Efficient Frontiers (Mean–ModVaR)
 
