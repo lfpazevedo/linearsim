@@ -112,13 +112,13 @@ Now let’s check the correlations in the higher moments.
 | LV     | -3.66 | -1.79   | 4.39  | -0.77 | -1.77        |          |           |            | -0.61       | -2.52        |          | -0.71       | -1.70   | 0.93          |
 | VRP    | 1.94  | 0.40    | -1.70 | 4.64  | 0.69         | 1.28     |           | 0.93       |             | 1.14         | -1.55    |             | 1.52    | -0.61         |
 
-A positive coskewness \[i; i; j\] — meaning twice iii and once jjj — indicates that asset jjj has a high return when the volatility of asset iii is high. In other words, jjj is a good hedge against spikes in iii. For both the USA and Brazil, the LV strategy proves to be a good hedge when the other assets are volatile.
+A positive coskewness between assets \[i; i; j\] (i.e., twice i, once j) means that asset j has a high return when the volatility of asset i is high. In other words, j is a good hedge against spikes in i. For both the USA and Brazil, the LV strategy is a good hedge when the other assets are volatile.
 
-For cokurtosis, positive values for \[i; i; i; j\] suggest that asset iii exhibits a more negatively skewed distribution when asset jjj’s return is lower. This pattern holds for VRP versus equity in the USA, and for bonds versus equity in Brazil.
+For cokurtosis, positive values for \[i; i; i; j\] indicate a more negatively skewed distribution for asset i when asset j’s return is lower. This holds for VRP versus equity in the USA, and for bonds and equity in Brazil.
 
-Positive values in \[i; i; j; k\] mean that the covariance between jjj and kkk increases when the volatility of iii goes up. In the USA, for example, the covariance between equities and VRP rises when LV volatility is high. In Brazil, equity and VRP covariance is higher during periods of elevated bond volatility.
+Positive values in \[i; i; j; k\] signal that the covariance between j and k increases when the volatility of i increases. In the USA, the covariance between equities and VRP increases when LV volatility is high. In Brazil, equity and VRP covariance is higher in periods of high bond volatility.
 
-Finally, \[i; i; j; j\] > 0 indicates that the volatility of iii and jjj increases together. We observe this behavior for bonds and LV in both countries.
+Finally, \[i; i; j; j\] > 0 means the volatility of i and j increases together. We observe this with bonds and LV in both countries.
 
 #### Efficient Frontiers (Mean–ModVaR)
 
