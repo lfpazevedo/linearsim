@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modeling on Clarity</title>
+    <link>https://lfpazevedo.github.io/linearsim/series/modeling/</link>
+    <description>Recent content in Modeling on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lfpazevedo.github.io/linearsim/series/modeling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analyzing Inflation Persistence: Long-Memory in Brazilian IPCA Subitems</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/ipca-inertia/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/ipca-inertia/</guid>
+      <description>
+        
+          
+            &lt;h3 id=&#34;time-varying-inflation-inertia-peaks-in-brazil&#34;&gt;&lt;strong&gt;Time-varying Inflation Inertia Peaks in Brazil&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The Brazilian Institute of Geography and Statistics (&lt;a href=&#34;www.ibge.gov.br&#34;&gt;IBGE&lt;/a&gt;) calculates consumer inflation for 16 metropolitan regions in Brazil, each with a distinct inflation basket. As of February 2025, this detailed breakdown (subitem level) includes over &lt;strong&gt;4,000 series&lt;/strong&gt;, totaling precisely &lt;strong&gt;1,247,023 data points&lt;/strong&gt; available since August 1999.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Surveyed Areas&lt;/th&gt;
+          &lt;th&gt;INPC¹&lt;/th&gt;
+          &lt;th&gt;IPCA²&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;BRASIL&lt;/td&gt;
+          &lt;td&gt;100.00&lt;/td&gt;
+          &lt;td&gt;100.00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Rio Branco&lt;/td&gt;
+          &lt;td&gt;0.72&lt;/td&gt;
+          &lt;td&gt;0.51&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Belém&lt;/td&gt;
+          &lt;td&gt;6.95&lt;/td&gt;
+          &lt;td&gt;3.94&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;São Luís&lt;/td&gt;
+          &lt;td&gt;3.47&lt;/td&gt;
+          &lt;td&gt;1.62&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Fortaleza&lt;/td&gt;
+          &lt;td&gt;5.16&lt;/td&gt;
+          &lt;td&gt;3.23&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Recife&lt;/td&gt;
+          &lt;td&gt;5.60&lt;/td&gt;
+          &lt;td&gt;3.92&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Aracaju&lt;/td&gt;
+          &lt;td&gt;1.29&lt;/td&gt;
+          &lt;td&gt;1.03&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Salvador&lt;/td&gt;
+          &lt;td&gt;7.92&lt;/td&gt;
+          &lt;td&gt;5.99&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Belo Horizonte&lt;/td&gt;
+          &lt;td&gt;10.35&lt;/td&gt;
+          &lt;td&gt;9.69&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Vitória&lt;/td&gt;
+          &lt;td&gt;1.91&lt;/td&gt;
+          &lt;td&gt;1.86&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Rio de Janeiro&lt;/td&gt;
+          &lt;td&gt;9.38&lt;/td&gt;
+          &lt;td&gt;9.43&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;São Paulo&lt;/td&gt;
+          &lt;td&gt;24.60&lt;/td&gt;
+          &lt;td&gt;32.28&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Curitiba&lt;/td&gt;
+          &lt;td&gt;7.37&lt;/td&gt;
+          &lt;td&gt;8.09&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Porto Alegre&lt;/td&gt;
+          &lt;td&gt;7.15&lt;/td&gt;
+          &lt;td&gt;8.61&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Campo Grande&lt;/td&gt;
+          &lt;td&gt;1.73&lt;/td&gt;
+          &lt;td&gt;1.57&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Goiânia&lt;/td&gt;
+          &lt;td&gt;4.43&lt;/td&gt;
+          &lt;td&gt;4.17&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Brasília&lt;/td&gt;
+          &lt;td&gt;1.97&lt;/td&gt;
+          &lt;td&gt;4.06&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Source: IBGE, Directorate of Surveys, Price Indexes Coordination.&lt;/em&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Building a Bond Portfolio Using PCA</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/bond-portfolio/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/bond-portfolio/</guid>
+      <description>
+        
+          
+            &lt;h4 id=&#34;simulating-level-slope-and-curvature-for-the-brazilian-yield-curve&#34;&gt;Simulating Level, Slope, and Curvature for the Brazilian Yield Curve&lt;/h4&gt;
+&lt;p&gt;We can explain the &lt;strong&gt;difference in interest rate levels&lt;/strong&gt; between countries by their individual &lt;strong&gt;institutional characteristics&lt;/strong&gt;. Countries that are better ranked in institutional indexes tend to present lower interest rates.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://lfpazevedo.github.io/linearsim/post/images/bond-portfolio/file-20250311094048974.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;slope&lt;/strong&gt; of the yield curve is connected to the current path of &lt;strong&gt;monetary policy&lt;/strong&gt;. The spread between short- and medium-term rates indicates expectations for further changes in the base rate.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Add Volatility to Protect Your Portfolio From Extreme Events</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/kurtosis-post/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/kurtosis-post/</guid>
+      <description>
+        
+          
+            &lt;h4 id=&#34;we-can-go-beyond-the-traditional-covariance-matrix-when-building-a-portfolio&#34;&gt;We can go beyond the traditional covariance matrix when building a portfolio.&lt;/h4&gt;
+&lt;p&gt;Financial price return distributions are not Gaussian. Extreme events occur far more often than predicted by the normal curve, and human behavior (particularly panic selling) amplifies downside moves, making the distribution of returns left-skewed.&lt;/p&gt;
+&lt;p&gt;During these extreme events, volatility measures spike. Therefore, adding volatility derivatives (futures, swaps, or even straddles and strangles) to your portfolio can help capture diversification benefits in the higher moments of the distribution.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Risk Aversion in Different Carry Regimes</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/fx-regime/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/fx-regime/</guid>
+      <description>
+        
+          
+            &lt;h4 id=&#34;currency-sensitivity-to-risk-factors-is-smaller-when-the-interest-rate-differential-is-higher&#34;&gt;&lt;em&gt;Currency sensitivity to risk factors is smaller when the interest rate differential is higher.&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Economic fundamentals&lt;/strong&gt; are among the main drivers of foreign exchange price fluctuations. For long-term analysis, &lt;strong&gt;interest rate differentials&lt;/strong&gt; can explain the overvalued BRL during the 2000s, while &lt;strong&gt;purchasing power parity (PPP)&lt;/strong&gt; &lt;em&gt;could&lt;/em&gt; be the main reason for the continuous appreciation of currencies in Eastern countries (&lt;em&gt;“could” because we may need more than 100 years of data to prove that PPP really works...&lt;/em&gt;).&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Statistical arbitrage with macro-factors</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/macro-factor-model/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/macro-factor-model/</guid>
+      <description>
+        
+          
+            &lt;h4 id=&#34;how-to-reduce-portfolio-drawdowns-using-macroeconomic-variables&#34;&gt;How to reduce portfolio drawdowns using macroeconomic variables&lt;/h4&gt;
+&lt;p&gt;As I showed in my previous &lt;a href=&#34;https://lfpazevedo.github.io/linearsim/post/ibov-clusters/&#34;&gt;post&lt;/a&gt;, &lt;strong&gt;identifying&lt;/strong&gt; independent (orthogonal) factors is crucial for explaining variations in asset prices.&lt;/p&gt;
+&lt;p&gt;When dealing with portfolios containing dozens or even hundreds of assets, we must understand the potential risks our capital is exposed to, so we can either avoid them or bet on a specific scenario to adjust the portfolio’s risk-return as desired.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;In this post, I&#39;ll show how adding macro-features can improve portfolio metrics, &lt;strong&gt;especially&lt;/strong&gt; drawdowns.&lt;/em&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

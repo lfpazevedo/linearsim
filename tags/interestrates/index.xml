@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>InterestRates on Clarity</title>
+    <link>https://lfpazevedo.github.io/linearsim/tags/interestrates/</link>
+    <description>Recent content in InterestRates on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lfpazevedo.github.io/linearsim/tags/interestrates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Bond Portfolio Using PCA</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/bond-portfolio/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/bond-portfolio/</guid>
+      <description>
+        
+          
+            &lt;h4 id=&#34;simulating-level-slope-and-curvature-for-the-brazilian-yield-curve&#34;&gt;Simulating Level, Slope, and Curvature for the Brazilian Yield Curve&lt;/h4&gt;
+&lt;p&gt;We can explain the &lt;strong&gt;difference in interest rate levels&lt;/strong&gt; between countries by their individual &lt;strong&gt;institutional characteristics&lt;/strong&gt;. Countries that are better ranked in institutional indexes tend to present lower interest rates.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://lfpazevedo.github.io/linearsim/post/images/bond-portfolio/file-20250311094048974.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;slope&lt;/strong&gt; of the yield curve is connected to the current path of &lt;strong&gt;monetary policy&lt;/strong&gt;. The spread between short- and medium-term rates indicates expectations for further changes in the base rate.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Risk Aversion in Different Carry Regimes</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/fx-regime/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/fx-regime/</guid>
+      <description>
+        
+          
+            &lt;h4 id=&#34;currency-sensitivity-to-risk-factors-is-smaller-when-the-interest-rate-differential-is-higher&#34;&gt;&lt;em&gt;Currency sensitivity to risk factors is smaller when the interest rate differential is higher.&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Economic fundamentals&lt;/strong&gt; are among the main drivers of foreign exchange price fluctuations. For long-term analysis, &lt;strong&gt;interest rate differentials&lt;/strong&gt; can explain the overvalued BRL during the 2000s, while &lt;strong&gt;purchasing power parity (PPP)&lt;/strong&gt; &lt;em&gt;could&lt;/em&gt; be the main reason for the continuous appreciation of currencies in Eastern countries (&lt;em&gt;“could” because we may need more than 100 years of data to prove that PPP really works...&lt;/em&gt;).&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Data Release Impact: Inflation or Activity?</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/data-release/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/data-release/</guid>
+      <description>
+        
+          
+            &lt;h4 id=&#34;interest-rate-sensitivity-to-economic-data-releases&#34;&gt;Interest Rate Sensitivity to Economic Data Releases&lt;/h4&gt;
+&lt;p&gt;The Brazilian Institute of Geography and Statistics (&lt;a href=&#34;https://www.ibge.gov.br/en/&#34;&gt;IBGE&lt;/a&gt;) releases monthly data on inflation and economic activity. The main inflation indicators are &lt;strong&gt;IPCA&lt;/strong&gt; and &lt;strong&gt;IPCA-15&lt;/strong&gt; (same methodology but different price collection), in addition to monthly surveys for &lt;strong&gt;Industry, Retail,&lt;/strong&gt; and &lt;strong&gt;Services&lt;/strong&gt; (PIM, PMC, PMS, respectively). IBGE also publishes monthly &lt;strong&gt;Unemployment&lt;/strong&gt; data, but due to its relatively short time series, I will not include it in the modeling proposed in this post.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
