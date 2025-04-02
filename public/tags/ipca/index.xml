@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPCA on Clarity</title>
+    <link>https://lfpazevedo.github.io/linearsim/tags/ipca/</link>
+    <description>Recent content in IPCA on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lfpazevedo.github.io/linearsim/tags/ipca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analyzing Inflation Persistence: Long-Memory in Brazilian IPCA Subitems</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/ipca-inertia/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/ipca-inertia/</guid>
+      <description>
+        
+          
+            &lt;h3 id=&#34;time-varying-inflation-inertia-peaks-in-brazil&#34;&gt;&lt;strong&gt;Time-varying Inflation Inertia Peaks in Brazil&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The Brazilian Institute of Geography and Statistics (&lt;a href=&#34;www.ibge.gov.br&#34;&gt;IBGE&lt;/a&gt;) calculates consumer inflation for 16 metropolitan regions in Brazil, each with a distinct inflation basket. As of February 2025, this detailed breakdown (subitem level) includes over &lt;strong&gt;4,000 series&lt;/strong&gt;, totaling precisely &lt;strong&gt;1,247,023 data points&lt;/strong&gt; available since August 1999.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Surveyed Areas&lt;/th&gt;
+          &lt;th&gt;INPC¹&lt;/th&gt;
+          &lt;th&gt;IPCA²&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;BRASIL&lt;/td&gt;
+          &lt;td&gt;100.00&lt;/td&gt;
+          &lt;td&gt;100.00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Rio Branco&lt;/td&gt;
+          &lt;td&gt;0.72&lt;/td&gt;
+          &lt;td&gt;0.51&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Belém&lt;/td&gt;
+          &lt;td&gt;6.95&lt;/td&gt;
+          &lt;td&gt;3.94&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;São Luís&lt;/td&gt;
+          &lt;td&gt;3.47&lt;/td&gt;
+          &lt;td&gt;1.62&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Fortaleza&lt;/td&gt;
+          &lt;td&gt;5.16&lt;/td&gt;
+          &lt;td&gt;3.23&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Recife&lt;/td&gt;
+          &lt;td&gt;5.60&lt;/td&gt;
+          &lt;td&gt;3.92&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Aracaju&lt;/td&gt;
+          &lt;td&gt;1.29&lt;/td&gt;
+          &lt;td&gt;1.03&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Salvador&lt;/td&gt;
+          &lt;td&gt;7.92&lt;/td&gt;
+          &lt;td&gt;5.99&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Belo Horizonte&lt;/td&gt;
+          &lt;td&gt;10.35&lt;/td&gt;
+          &lt;td&gt;9.69&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Vitória&lt;/td&gt;
+          &lt;td&gt;1.91&lt;/td&gt;
+          &lt;td&gt;1.86&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Rio de Janeiro&lt;/td&gt;
+          &lt;td&gt;9.38&lt;/td&gt;
+          &lt;td&gt;9.43&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;São Paulo&lt;/td&gt;
+          &lt;td&gt;24.60&lt;/td&gt;
+          &lt;td&gt;32.28&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Curitiba&lt;/td&gt;
+          &lt;td&gt;7.37&lt;/td&gt;
+          &lt;td&gt;8.09&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Porto Alegre&lt;/td&gt;
+          &lt;td&gt;7.15&lt;/td&gt;
+          &lt;td&gt;8.61&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Campo Grande&lt;/td&gt;
+          &lt;td&gt;1.73&lt;/td&gt;
+          &lt;td&gt;1.57&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Goiânia&lt;/td&gt;
+          &lt;td&gt;4.43&lt;/td&gt;
+          &lt;td&gt;4.17&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Brasília&lt;/td&gt;
+          &lt;td&gt;1.97&lt;/td&gt;
+          &lt;td&gt;4.06&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Source: IBGE, Directorate of Surveys, Price Indexes Coordination.&lt;/em&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>IPCA Dec-2024 - Highlights</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/ipca-202412/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/ipca-202412/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;beef-on-the-rise&#34;&gt;Beef on the rise.&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ibge.gov.br/&#34;&gt;IBGE&lt;/a&gt; released today the latest data on the 2024 IPCA.&lt;/p&gt;
+&lt;p&gt;Once again, beef prices made the largest contribution to the headline inflation rate. This marks the fourth consecutive month of abnormal price increases in this category.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;IPCA contribution - Food&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://lfpazevedo.github.io/linearsim/post/images/ipca-202412/file-20250110183128919.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The price hikes were observed across all cuts, including more affordable options like &lt;em&gt;chuck&lt;/em&gt; (&lt;em&gt;Acém&lt;/em&gt;). This pattern is typical at the start of the year, driven by seasonal factors such as tax payments and back-to-school expenses. These obligations take a significant portion of household budgets, leaving consumers with less money to purchase expensive cuts like &lt;em&gt;Picanha&lt;/em&gt;.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Desegregate. Now You Can.</title>
+      <link>https://lfpazevedo.github.io/linearsim/post/desegregate-ipca/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lfpazevedo.github.io/linearsim/post/desegregate-ipca/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Nowadays, it’s easier and cheaper to create your own website or blog. Every corner store can share its prices with the entire planet.&lt;/p&gt;
+&lt;p&gt;For a quantitative economist, this “corner store” is like a playground of endless possibilities.&lt;/p&gt;
+&lt;p&gt;Before we had onIn the past, only a few marketplaces published food prices—like &lt;a href=&#34;https://ceagesp.gov.br/&#34;&gt;Ceagesp&lt;/a&gt; anb local &lt;a href=&#34;https://www.ceasa.pr.gov.br/&#34;&gt;Ceasas&lt;/a&gt; in major Brazilian cities—and some institutions, such as &lt;a href=&#34;https://www.cepea.esalq.usp.br/br&#34;&gt;ESALQ&lt;/a&gt; focused on commodity prices in selected regions. Now, we can be more ambitious and &lt;strong&gt;scrape&lt;/strong&gt; retail or wholesale prices for any desired location worldwide.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
