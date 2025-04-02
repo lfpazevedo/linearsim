@@ -62,9 +62,9 @@ Out of over 4,000 inflation series published in February 2025:
     
 - The median long-memory parameter peaked towards the end of the previous presidential mandate and remains elevated.
 
-![`Time-Varying Estimated 'd'  //  -1.0 < d < 0.5`](/linearsim/post/images/ipca-inertia/file-20250402180934805.png)
+![Time-Varying Estimated d  //  -1.0 to 0.5](/linearsim/post/images/ipca-inertia/file-20250402180934805.png)
 
-![`Time-Varying Estimated 'd'  //  -1.0 < d < 0.5`](/linearsim/post/images/ipca-inertia/file-20250402180944245.png)
+![Time-Varying Estimated d  //  0.0 to 0.5](/linearsim/post/images/ipca-inertia/file-20250402180944245.png)
 
 ---
 
@@ -78,7 +78,7 @@ Breaking down the long-memory behavior by the Brazilian Central Bank’s (BCB) s
     
 - **Services**: Interestingly, reached historically low levels of inertia.
 
-![`Time-Varying Estimated 'd'  //  0.0 < d < 0.5`](/linearsim/post/images/ipca-inertia/file-20250402182155742.png)
+![Time-Varying Estimated d  //  0.0 to 0.5](/linearsim/post/images/ipca-inertia/file-20250402182155742.png)
 
 #### **Detailed Breakdown (February 2025)**
 
@@ -91,9 +91,9 @@ Breaking down the long-memory behavior by the Brazilian Central Bank’s (BCB) s
 
 The fraction of series with significant long-memory in services is notably low, with minimal differences between core and headline components.
 
-![`Time-Varying Estimated 'd'  //  -1.0 < d < 0.5`](/linearsim/post/images/ipca-inertia/file-20250402184552307.png)
+![Time-Varying Estimated d  //  -1.0 to 0.5](/linearsim/post/images/ipca-inertia/file-20250402184552307.png)
 
-![`Time-Varying Estimated 'd'  //  0.0 < d < 0.5`](/linearsim/post/images/ipca-inertia/file-20250402184603211.png)
+![Time-Varying Estimated d  //  0.0 to 0.5](/linearsim/post/images/ipca-inertia/file-20250402184603211.png)
 
 ---
 ### **Regional Analysis Reveals Divergent Trends**
@@ -102,13 +102,13 @@ Regionally, inertia patterns vary:
 
 - **Services Inertia**: Generally decreasing across metropolitan regions, except for Recife, which shows a different trend.
 
-![`Time-Varying Estimated 'd'  //  0.0 < d < 0.5`](/linearsim/post/images/ipca-inertia/file-20250402185329512.png)
+![Time-Varying Estimated d  //  0.0 to 0.5](/linearsim/post/images/ipca-inertia/file-20250402185329512.png)
 
 **Industrial Goods and Food-at-Home Inertia**: Exhibits a generalized and pronounced increase across most metropolitan areas.
 
-![`Time-Varying Estimated 'd'  //  0.0 < d < 0.5`](/linearsim/post/images/ipca-inertia/file-20250402185515642.png)
+![Time-Varying Estimated d  //  0.0 to 0.5](/linearsim/post/images/ipca-inertia/file-20250402185515642.png)
 
-![`Time-Varying Estimated 'd'  //  0.0 < d < 0.5`](/linearsim/post/images/ipca-inertia/file-20250402185524827.png)
+![Time-Varying Estimated d  //  0.0 to 0.5](/linearsim/post/images/ipca-inertia/file-20250402185524827.png)
 
 ---
 
